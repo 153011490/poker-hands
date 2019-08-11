@@ -32,19 +32,25 @@ public class Player {
         List<Integer> points = getPoints();
         Map<Integer,List<Integer>> pointsMap = points.stream().collect(Collectors.groupingBy(x -> x));
         List<List<Integer>> tempList=pointsMap.values().stream().sorted((a,b)->b.size()-a.size()).collect(Collectors.toList());
-        if(tempList.size()==5){
-            if(isSameType())return SAME_TYPE;
-            if(isStraigh())return STRAIGH;
-            return GENERIC;
-        }
-        if(tempList.size()==4){
-            return PAIR;
-        }
-        if(tempList.size()==3){
-            if(tempList.get(0).size()==3){
-                return THREE_SAME;
+        if(this.cards.size()==5){
+            if(tempList.size()==5){
+                if(isSameType())return SAME_TYPE;
+                if(isStraigh())return STRAIGH;
+                return GENERIC;
             }
-            return DOUBLE_PAIR;
+            if(tempList.size()==4){
+                return PAIR;
+            }
+            if(tempList.size()==3){
+                if(tempList.get(0).size()==3){
+                    return THREE_SAME;
+                }
+                return DOUBLE_PAIR;
+            }
+            if(tempList.size()==2){
+                if(tempList.get(0).size()==4)return FOUR_SAME;
+                return THREE_SAME_TWO_PAIR;
+            }
         }
         Integer level = tempList.get(0).size();
         return level;
