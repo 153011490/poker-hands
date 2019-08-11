@@ -20,7 +20,7 @@ public class Referee {
             }else if(playerA.getLevel() < playerB.getLevel()){
                 return "playerB";
             }else{
-                for(int i=0 ; i<2 ; i++){
+                for(int i=0 ; i<playerA.getCards().size() ; i++){
                     if(playerA.getPoints().get(i) > playerB.getPoints().get(i))return "playerA";
                     else if(playerA.getPoints().get(i) < playerB.getPoints().get(i))return "playerB";
                 }
