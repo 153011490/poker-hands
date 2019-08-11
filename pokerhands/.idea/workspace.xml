@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb633159-e202-470c-9908-2d6e47ba8478" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/pokerhands/handler/RefereeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pokerhands/handler/RefereeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/pokerhands/handler/RefereeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="254" column="76" selection-start-line="254" selection-start-column="76" selection-end-line="254" selection-end-column="76" />
+            <state relative-caret-position="566">
+              <caret line="267" column="16" selection-start-line="267" selection-start-column="16" selection-end-line="267" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
@@ -206,13 +204,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.RefereeTest">
+  <component name="RunManager" selected="Gradle.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C2D3H3S3D_4D4C5D5C5H">
     <configuration name="RefereeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.pokerhands.handler.RefereeTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RefereeTest.should_return_playerA_when_call_getBestPlayer_then_give_2C2D3H3S3D_4D5D6D7D9D" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.pokerhands.handler.RefereeTest.should_return_playerA_when_call_getBestPlayer_then_give_2C2D3H3S3D_4D5D6D7D9D&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -247,12 +265,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RefereeTest.should_return_playerA_when_call_getBestPlayer_then_give_2C3H4C5H6C_3D4S5D5S5D" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C2D3H3S3D_4D4C5D5C5H" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.pokerhands.handler.RefereeTest.should_return_playerA_when_call_getBestPlayer_then_give_2C3H4C5H6C_3D4S5D5S5D&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.pokerhands.handler.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C2D3H3S3D_4D4C5D5C5H&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -287,33 +305,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C3H3C5H5C_3D4S5D5S5D" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.pokerhands.handler.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C3H3C5H5C_3D4S5D5S5D&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C2D3H3S3D_4D4C5D5C5H" />
         <item itemvalue="Gradle.RefereeTest" />
+        <item itemvalue="Gradle.RefereeTest.should_return_playerA_when_call_getBestPlayer_then_give_2C2D3H3S3D_4D5D6D7D9D" />
         <item itemvalue="Gradle.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C3C4C5C9C_3D4D5D6D9D" />
         <item itemvalue="Gradle.RefereeTest.should_return_playerA_when_call_getBestPlayer_then_give_2C3C4C5C9C_3D4S5D6S7D" />
-        <item itemvalue="Gradle.RefereeTest.should_return_playerA_when_call_getBestPlayer_then_give_2C3H4C5H6C_3D4S5D5S5D" />
-        <item itemvalue="Gradle.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C3H3C5H5C_3D4S5D5S5D" />
       </list>
     </recent_temporary>
   </component>
@@ -331,15 +329,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RefereeTest_should_return_playerA_when_call_getBestPlayer_then_give_2C3H4C5H6C_3D4S5D5S5D - 2019.08.11 at 21h 17m 25s.xml">
-      <configuration name="RefereeTest.should_return_playerA_when_call_getBestPlayer_then_give_2C3H4C5H6C_3D4S5D5S5D" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="RefereeTest_should_return_playerA_when_call_getBestPlayer_then_give_2C3H4C5H6C_3D4S5D5S5D - 2019.08.11 at 21h 18m 01s.xml">
-      <configuration name="RefereeTest.should_return_playerA_when_call_getBestPlayer_then_give_2C3H4C5H6C_3D4S5D5S5D" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="RefereeTest_should_return_playerA_when_call_getBestPlayer_then_give_2C3H4C5H6C_3D4S5D5S5D - 2019.08.11 at 21h 19m 15s.xml">
-      <configuration name="RefereeTest.should_return_playerA_when_call_getBestPlayer_then_give_2C3H4C5H6C_3D4S5D5S5D" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="RefereeTest_should_return_playerA_when_call_getBestPlayer_then_give_2C3H4C5H6C_3D4S5D5S5D - 2019.08.11 at 21h 19m 25s.xml">
       <configuration name="RefereeTest.should_return_playerA_when_call_getBestPlayer_then_give_2C3H4C5H6C_3D4S5D5S5D" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -361,10 +350,18 @@
     <history-entry file="RefereeTest - 2019.08.11 at 21h 26m 35s.xml">
       <configuration name="RefereeTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="RefereeTest_should_return_playerA_when_call_getBestPlayer_then_give_2C2D3H3S3D_4D5D6D7D9D - 2019.08.11 at 21h 32m 47s.xml">
+      <configuration name="RefereeTest.should_return_playerA_when_call_getBestPlayer_then_give_2C2D3H3S3D_4D5D6D7D9D" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="RefereeTest - 2019.08.11 at 21h 32m 54s.xml">
+      <configuration name="RefereeTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="RefereeTest_should_return_playerB_when_call_getBestPlayer_then_give_2C2D3H3S3D_4D4C5D5C5H - 2019.08.11 at 21h 35m 24s.xml">
+      <configuration name="RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C2D3H3S3D_4D4C5D5C5H" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -489,8 +486,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/pokerhands/handler/RefereeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="254" column="76" selection-start-line="254" selection-start-column="76" selection-end-line="254" selection-end-column="76" />
+        <state relative-caret-position="566">
+          <caret line="267" column="16" selection-start-line="267" selection-start-column="16" selection-end-line="267" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />
