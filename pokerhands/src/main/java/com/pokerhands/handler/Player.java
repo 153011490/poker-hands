@@ -34,6 +34,7 @@ public class Player {
         List<List<Integer>> tempList=pointsMap.values().stream().sorted((a,b)->b.size()-a.size()).collect(Collectors.toList());
         if(this.cards.size()==5){
             if(tempList.size()==5){
+                if(isStraighSameType())return STRAIGH_SAME_TYPE;
                 if(isSameType())return SAME_TYPE;
                 if(isStraigh())return STRAIGH;
                 return GENERIC;
@@ -73,9 +74,17 @@ public class Player {
         return true;
     }
 
-    public boolean isSameType(){
+    private boolean isSameType(){
         for (int i=0;i<this.cards.size()-1;i++){
             if(this.cards.get(i).getType()!=this.getCards().get(i+1).getType())return false;
+        }
+        return true;
+    }
+
+    private boolean isStraighSameType(){
+        List<Integer> points = this.getPoints();
+        for (int i=0;i<this.cards.size()-1;i++){
+            if(this.cards.get(i).getType()!=this.getCards().get(i+1).getType()||points.get(i)-points.get(i+1)!=1)return false;
         }
         return true;
     }
