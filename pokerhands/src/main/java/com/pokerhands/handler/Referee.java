@@ -14,7 +14,7 @@ public class Referee {
                 return "playerB";
             }
         }
-        if(cardsASize == 2 && cardsBSize == 2){
+        if(cardsASize >= 2 && cardsBSize >= 2){
             if(playerA.getLevel() > playerB.getLevel()){
                 return "playerA";
             }else if(playerA.getLevel() < playerB.getLevel()){

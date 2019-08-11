@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.pokerhands.handler.RefereeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-08-11T12:15:03" hostname="ZHA-ITA028-W10" time="0.017">
+<testsuite name="com.pokerhands.handler.RefereeTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-08-11T12:25:38" hostname="ZHA-ITA028-W10" time="0.014">
   <properties/>
   <testcase name="should_return_playEven_when_call_getBestPlayer_then_give_3H_3D" classname="com.pokerhands.handler.RefereeTest" time="0.002"/>
+  <testcase name="should_return_playerB_when_call_getBestPlayer_then_give_2C3H4C7H8C_2D3S4D8S9D" classname="com.pokerhands.handler.RefereeTest" time="0.011"/>
   <testcase name="should_return_playerB_when_call_getBestPlayer_then_give_2H_3D" classname="com.pokerhands.handler.RefereeTest" time="0.0"/>
-  <testcase name="should_return_playEven_when_call_getBestPlayer_then_give_3C3H_3D3S" classname="com.pokerhands.handler.RefereeTest" time="0.014"/>
-  <testcase name="should_return_playerB_when_call_getBestPlayer_then_give_2H3H_3D3S" classname="com.pokerhands.handler.RefereeTest" time="0.0"/>
+  <testcase name="should_return_playEven_when_call_getBestPlayer_then_give_3C3H_3D3S" classname="com.pokerhands.handler.RefereeTest" time="0.0"/>
+  <testcase name="should_return_playerB_when_call_getBestPlayer_then_give_2H3H_3D3S" classname="com.pokerhands.handler.RefereeTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
