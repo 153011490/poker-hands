@@ -10,6 +10,15 @@ import java.util.stream.Collectors;
 public class Player {
 
     private List<Card> cards = new ArrayList<Card>();
+    private static final Integer GENERIC = 1;
+    private static final Integer PAIR = 2;
+    private static final Integer DOUBLE_PAIR = 3;
+    private static final Integer THREE_SAME = 4;
+    private static final Integer STRAIGH =5;
+    private static final Integer SAME_TYPE = 6;
+    private static final Integer THREE_SAME_TWO_PAIR= 7;
+    private static final Integer FOUR_SAME = 8;
+    private static final Integer STRAIGH_SAME_TYPE = 9;
 
     public List<Card> getCards() {
         return cards;
@@ -22,7 +31,20 @@ public class Player {
     public Integer getLevel(){
         List<Integer> points = getPoints();
         Map<Integer,List<Integer>> pointsMap = points.stream().collect(Collectors.groupingBy(x -> x));
-        Integer level = pointsMap.values().stream().sorted((a,b)->b.size()-a.size()).collect(Collectors.toList()).get(0).size();
+        List<List<Integer>> tempList=pointsMap.values().stream().sorted((a,b)->b.size()-a.size()).collect(Collectors.toList());
+        if(tempList.size()==5){
+            return GENERIC;
+        }
+        if(tempList.size()==4){
+            return PAIR;
+        }
+        if(tempList.size()==3){
+            if(tempList.get(0).size()==3){
+                return THREE_SAME;
+            }
+            return DOUBLE_PAIR;
+        }
+        Integer level = tempList.get(0).size();
         return level;
     }
 
@@ -34,4 +56,5 @@ public class Player {
         });
         return points.stream().sorted((a,b)->b-a).collect(Collectors.toList());
     }
+
 }
