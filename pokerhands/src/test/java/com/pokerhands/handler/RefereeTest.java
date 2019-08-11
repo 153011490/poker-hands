@@ -316,4 +316,17 @@ public class RefereeTest {
         Assert.assertEquals("playerA",result);
     }
 
+    @Test
+    public void should_return_playerB_when_call_getBestPlayer_then_give_2C3C4C5C6C_3H4H5H6H7H(){
+        //given
+        Player playerA = new Player();
+        playerA.setCards(Arrays.asList(new Card(2,"C"),new Card(3,"C"),new Card(4,"C"),new Card(5,"C"),new Card(6,"C")));
+        Player playerB = new Player();
+        playerB.setCards(Arrays.asList(new Card(3,"H"),new Card(4,"H"),new Card(5,"H"),new Card(6,"H"),new Card(7,"H")));
+        //when
+        String result = referee.getBestPlayer(playerA,playerB);
+        //then
+        Assert.assertEquals("playerB",result);
+    }
+
 }
