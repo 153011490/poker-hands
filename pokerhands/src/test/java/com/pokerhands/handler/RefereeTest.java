@@ -29,4 +29,17 @@ public class RefereeTest {
         //then
         Assert.assertEquals("playerB",result);
     }
+
+    @Test
+    public void should_return_playEven_when_call_getBestPlayer_then_give_3H_3D(){
+        //given
+        Player playerA = new Player();
+        playerA.setCards(Arrays.asList(new Card(3,"H")));
+        Player playerB = new Player();
+        playerB.setCards(Arrays.asList(new Card(3,"D")));
+        //when
+        String result = referee.getBestPlayer(playerA,playerB);
+        //then
+        Assert.assertEquals("play even",result);
+    }
 }

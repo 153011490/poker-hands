@@ -8,7 +8,11 @@ public class Referee {
         Integer cardsASize=playerA.getCards().size();
         Integer cardsBSize=playerB.getCards().size();
         if(cardsASize == 1 && cardsBSize == 1){
-            return playerA.getCards().get(0).getPoint() > playerB.getCards().get(0).getPoint() ? "playerA" : "playerB";
+            if(playerA.getCards().get(0).getPoint() > playerB.getCards().get(0).getPoint()){
+                return "playerA";
+            }else if(playerA.getCards().get(0).getPoint() < playerB.getCards().get(0).getPoint()){
+                return "playerB";
+            }
         }
         return "play even";
     }
