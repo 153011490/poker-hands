@@ -33,6 +33,7 @@ public class Player {
         Map<Integer,List<Integer>> pointsMap = points.stream().collect(Collectors.groupingBy(x -> x));
         List<List<Integer>> tempList=pointsMap.values().stream().sorted((a,b)->b.size()-a.size()).collect(Collectors.toList());
         if(tempList.size()==5){
+            if(isStraigh())return STRAIGH;
             return GENERIC;
         }
         if(tempList.size()==4){
@@ -55,6 +56,14 @@ public class Player {
             points.add(item.getPoint());
         });
         return points.stream().sorted((a,b)->b-a).collect(Collectors.toList());
+    }
+
+    private boolean isStraigh(){
+        List<Integer> points = this.getPoints();
+        for(int i=0;i<points.size()-1;i++){
+            if(points.get(i)-points.get(i+1)!=1)return false;
+        }
+        return true;
     }
 
 }

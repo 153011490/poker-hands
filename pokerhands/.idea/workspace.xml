@@ -202,13 +202,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C3H4C5H7C_3D4S4D5S5D">
+  <component name="RunManager" selected="Gradle.RefereeTest">
     <configuration name="RefereeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.pokerhands.handler.RefereeTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C3H3C5H5C_3D4S5D5S5D" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.pokerhands.handler.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C3H3C5H5C_3D4S5D5S5D&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -283,33 +303,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2H3H_3D3S" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.pokerhands.handler.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2H3H_3D3S&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RefereeTest" />
+        <item itemvalue="Gradle.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C3H3C5H5C_3D4S5D5S5D" />
         <item itemvalue="Gradle.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C3H4C5H7C_3D4S4D5S5D" />
         <item itemvalue="Gradle.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C4H4C5H6C_3D4S4D5S5D" />
-        <item itemvalue="Gradle.RefereeTest" />
         <item itemvalue="Gradle.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2C4H4C5H5C_3D4S5D5S5D" />
-        <item itemvalue="Gradle.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2H3H_3D3S" />
       </list>
     </recent_temporary>
   </component>
