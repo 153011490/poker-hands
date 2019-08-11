@@ -33,6 +33,7 @@ public class Player {
         Map<Integer,List<Integer>> pointsMap = points.stream().collect(Collectors.groupingBy(x -> x));
         List<List<Integer>> tempList=pointsMap.values().stream().sorted((a,b)->b.size()-a.size()).collect(Collectors.toList());
         if(tempList.size()==5){
+            if(isSameType())return SAME_TYPE;
             if(isStraigh())return STRAIGH;
             return GENERIC;
         }
@@ -66,6 +67,11 @@ public class Player {
         return true;
     }
 
-
+    public boolean isSameType(){
+        for (int i=0;i<this.cards.size()-1;i++){
+            if(this.cards.get(i).getType()!=this.getCards().get(i+1).getType())return false;
+        }
+        return true;
+    }
 
 }
