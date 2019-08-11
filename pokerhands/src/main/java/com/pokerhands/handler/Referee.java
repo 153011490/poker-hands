@@ -14,6 +14,18 @@ public class Referee {
                 return "playerB";
             }
         }
+        if(cardsASize == 2 && cardsBSize == 2){
+            if(playerA.getLevel() > playerB.getLevel()){
+                return "playerA";
+            }else if(playerA.getLevel() < playerB.getLevel()){
+                return "playerB";
+            }else{
+                for(int i=0 ; i<2 ; i++){
+                    if(playerA.getPoints().get(i) > playerB.getPoints().get(i))return "playerA";
+                    else if(playerA.getPoints().get(i) < playerB.getPoints().get(i))return "playerB";
+                }
+            }
+        }
         return "play even";
     }
 

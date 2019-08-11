@@ -2,49 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb633159-e202-470c-9908-2d6e47ba8478" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/pokerhands/entity/Card.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/pokerhands/entity/Poker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/pokerhands/handler/Player.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/pokerhands/handler/Referee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/pokerhands/handler/RefereeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.pokerhands.handler.RefereeTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.pokerhands.handler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.pokerhands.handler.RefereeTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pokerhands/entity/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pokerhands/entity/Poker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Referee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pokerhands/handler/RefereeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Referee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Referee.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -93,17 +53,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Referee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/pokerhands/handler/RefereeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="77" />
+            <state relative-caret-position="136">
+              <caret line="23" column="49" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
@@ -113,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="347">
+              <caret line="24" column="136" selection-start-line="24" selection-start-column="136" selection-end-line="24" selection-end-column="136" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#232#233#0" expanded="true" />
@@ -147,11 +107,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/pokerhands/entity/Poker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Handler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/pokerhands/handler/PlayerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Referee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pokerhands/entity/Card.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/pokerhands/handler/RefereeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Referee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Player.java" />
       </list>
     </option>
   </component>
@@ -236,7 +196,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.RefereeTest">
+    <configuration name="RefereeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.pokerhands.handler.RefereeTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RefereeTest.should_return_playEven_when_call_getBestPlayer_then_give_3H_3D" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.pokerhands.handler.RefereeTest.should_return_playEven_when_call_getBestPlayer_then_give_3H_3D&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2H_3D" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -259,7 +259,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RefereeTest" />
         <item itemvalue="Gradle.RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2H_3D" />
+        <item itemvalue="Gradle.RefereeTest.should_return_playEven_when_call_getBestPlayer_then_give_3H_3D" />
       </list>
     </recent_temporary>
   </component>
@@ -276,8 +278,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RefereeTest_should_return_playerB_when_call_getBestPlayer_then_give_2H_3D - 2019.08.11 at 19h 20m 03s.xml">
+      <configuration name="RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2H_3D" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="RefereeTest_should_return_playerB_when_call_getBestPlayer_then_give_2H_3D - 2019.08.11 at 19h 20m 18s.xml">
+      <configuration name="RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2H_3D" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="RefereeTest_should_return_playEven_when_call_getBestPlayer_then_give_3H_3D - 2019.08.11 at 19h 22m 57s.xml">
+      <configuration name="RefereeTest.should_return_playEven_when_call_getBestPlayer_then_give_3H_3D" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="RefereeTest_should_return_playEven_when_call_getBestPlayer_then_give_3H_3D - 2019.08.11 at 19h 25m 11s.xml">
+      <configuration name="RefereeTest.should_return_playEven_when_call_getBestPlayer_then_give_3H_3D" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="RefereeTest - 2019.08.11 at 19h 25m 28s.xml">
+      <configuration name="RefereeTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="RefereeTest - 2019.08.11 at 19h 25m 38s.xml">
+      <configuration name="RefereeTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="RefereeTest_should_return_playEven_when_call_getBestPlayer_then_give_3H_3D - 2019.08.11 at 19h 25m 43s.xml">
+      <configuration name="RefereeTest.should_return_playEven_when_call_getBestPlayer_then_give_3H_3D" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="RefereeTest_should_return_playerB_when_call_getBestPlayer_then_give_2H_3D - 2019.08.11 at 19h 25m 47s.xml">
+      <configuration name="RefereeTest.should_return_playerB_when_call_getBestPlayer_then_give_2H_3D" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="RefereeTest - 2019.08.11 at 19h 26m 10s.xml">
+      <configuration name="RefereeTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -316,6 +348,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/pokerhands/handler/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pokerhands/entity/Poker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -335,45 +377,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/pokerhands/handler/PlayerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/pokerhands/handler/RefereeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="136">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Referee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/pokerhands/handler/RefereeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pokerhands/handler/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="77" />
+        <state relative-caret-position="347">
+          <caret line="24" column="136" selection-start-line="24" selection-start-column="136" selection-end-line="24" selection-end-column="136" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
           </folding>
         </state>
       </provider>
