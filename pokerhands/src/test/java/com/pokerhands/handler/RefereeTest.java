@@ -304,7 +304,7 @@ public class RefereeTest {
     }
 
     @Test
-    public void should_return_playerB_when_call_getBestPlayer_then_give_2C3C4C5C6C_4D5S5D5C5H(){
+    public void should_return_playerA_when_call_getBestPlayer_then_give_2C3C4C5C6C_4D5S5D5C5H(){
         //given
         Player playerA = new Player();
         playerA.setCards(Arrays.asList(new Card(2,"C"),new Card(3,"C"),new Card(4,"C"),new Card(5,"C"),new Card(6,"C")));
